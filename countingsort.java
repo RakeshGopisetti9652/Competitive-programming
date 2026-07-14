@@ -11,6 +11,7 @@ public class countingsort {
             a[i]=sc.nextInt();
             k=Math.max(k,a[i]);
         }
+        //counting sort
         int []count=new int[k+1];
         for(int i=0;i<n;i++){
             count[a[i]]++;
